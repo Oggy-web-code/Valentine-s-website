@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+img {
+    width: 350px;  /* Increased image size */
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ff4d4d;
+    font-size: 40px; /* Increased font size for question */
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    font-size: 26px; /* Larger button text */
+    padding: 20px 40px; /* Bigger buttons */
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#yes {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#no {
+    background-color: #d9d9d9;
+    color: black;
+    position: absolute;
+}
+
+p {
+    font-size: 30px; /* Larger final message */
+    color: #ff4d4d;
+}
